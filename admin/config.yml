@@ -3,6 +3,8 @@ backend:
   repo: przystanekpolaris/przystanekpolaris
   branch: master
   base_url: https://morning-butterfly-2fcf.wiatrok35.workers.dev
+  auth_endpoint: /auth
+  auth_scope: repo
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
