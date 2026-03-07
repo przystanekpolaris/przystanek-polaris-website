@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: przystanekpolaris/przystanekpolaris
+  branch: master
+  base_url: https://morning-butterfly-2fcf.wiatrok35.workers.dev
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Text", name: "body", widget: "markdown" }
