@@ -2,7 +2,7 @@ backend:
   name: github
   repo: przystanekpolaris/przystanekpolaris
   branch: master
-  base_url: https://morning-butterfly-2fcf.wiatrok35.workers.dev
+  base_url: https://decap-proxy.wiatrok35.workers.dev
   auth_endpoint: /auth
   auth_scope: repo
 
