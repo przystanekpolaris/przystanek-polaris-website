@@ -1,0 +1,1 @@
+import{_ as e,c as n,b as o,o as t}from"./index-CjS1MUEI.js";const r="/assets/under-construction-BnyAoXib.png",c={},a={class:"under-construction"};function _(i,s){return t(),n("div",a,s[0]||(s[0]=[o("img",{src:r},null,-1)]))}const d=e(c,[["render",_]]);export{d as default};
