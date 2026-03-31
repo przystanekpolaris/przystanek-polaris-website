@@ -12,6 +12,15 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
+  - name: "pages"
+    label: "Strony"
+    files:
+      - label: "Agenda"
+        name: "agenda"
+        file: "content/site/agenda.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "Text", name: "body", widget: "markdown" }
   - name: "news"
     label: "News"
     folder: "content/news"
